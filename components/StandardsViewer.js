@@ -12,7 +12,7 @@ const StandardsViewer = () => {
   useEffect(() => {
     const loadStandards = async () => {
       try {
-        const response = await window.fs.readFile('2024 Priority Standards ELA  ELA_911_Standards.csv', { encoding: 'utf8' });
+        const response = await window.fs.readFile('data/standards.csv', { encoding: 'utf8' });
         const parsed = Papa.parse(response, {
           header: true,
           skipEmptyLines: true
