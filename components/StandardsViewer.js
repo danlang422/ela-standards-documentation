@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
+import { Card, CardHeader, CardTitle, CardContent } from '../components/ui/card';
 import { ChevronDown, ChevronRight, ExternalLink } from 'lucide-react';
 import Papa from 'papaparse';
 
