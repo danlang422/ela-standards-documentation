@@ -1,5 +1,3 @@
-import { Metadata } from 'next'
-
 export const metadata = {
   title: 'ELA Standards Documentation',
   description: 'Interactive documentation system for ELA standards',
