@@ -1,10 +1,9 @@
-import StandardDocumentation from '../components/StandardDocumentation';
+import StandardsViewer from '../components/StandardsViewer'
 
 export default function Home() {
   return (
     <div>
-      <h1>Standards Documentation</h1>
-      <StandardDocumentation />
+      <StandardsViewer />
     </div>
-  );
+  )
 }
