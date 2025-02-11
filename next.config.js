@@ -4,10 +4,7 @@ const nextConfig = {
   basePath: '/ela-standards-documentation',
   images: {
     unoptimized: true,
-  },
-  experimental: {
-    appDir: true
-  },
+  }
 }
 
 module.exports = nextConfig
